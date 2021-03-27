@@ -1012,7 +1012,6 @@ void readuserfile()
         if (p->next != NULL)
         {
             p = (struct useraccount *)malloc(sizeof(struct useraccount));
-
             end->next = p;
             end = p;
             end->next = NULL;
